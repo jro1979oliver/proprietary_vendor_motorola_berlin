@@ -81,9 +81,21 @@ android_app_import {
 }
 
 dex_import {
+	name: "com.motorola.frameworks.core.addon",
+	owner: "motorola",
+	jars: ["proprietary/system/framework/com.motorola.frameworks.core.addon.jar"],
+}
+
+dex_import {
 	name: "com.motorola.motosignature",
 	owner: "motorola",
 	jars: ["proprietary/system/framework/com.motorola.motosignature.jar"],
+}
+
+dex_import {
+	name: "moto-checkin",
+	owner: "motorola",
+	jars: ["proprietary/system/framework/moto-checkin.jar"],
 }
 
 dex_import {
