@@ -25,6 +25,8 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/berlin/proprietary/system/etc/permissions/moto-checkin.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/moto-checkin.xml \
     vendor/motorola/berlin/proprietary/system/etc/permissions/moto-core_services.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/moto-core_services.xml \
     vendor/motorola/berlin/proprietary/system/etc/permissions/moto-settings.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/moto-settings.xml \
+    vendor/motorola/berlin/proprietary/system/lib/libwavesaudio_effectwrapper.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libwavesaudio_effectwrapper.so \
+    vendor/motorola/berlin/proprietary/system/lib64/libwavesaudio_effectwrapper.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libwavesaudio_effectwrapper.so \
     vendor/motorola/berlin/proprietary/system_ext/bin/motsettings:$(TARGET_COPY_OUT_SYSTEM_EXT)/bin/motsettings \
     vendor/motorola/berlin/proprietary/system_ext/etc/permissions/com.android.hotwordenrollment.common.util.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/com.android.hotwordenrollment.common.util.xml \
     vendor/motorola/berlin/proprietary/vendor/bin/STFlashTool:$(TARGET_COPY_OUT_VENDOR)/bin/STFlashTool \
@@ -394,6 +396,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/berlin/proprietary/vendor/lib/hw/camera.qcom.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/camera.qcom.so \
     vendor/motorola/berlin/proprietary/vendor/lib/hw/com.qti.chi.override.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/com.qti.chi.override.so \
     vendor/motorola/berlin/proprietary/vendor/lib/libAndroidAlgSys.so:$(TARGET_COPY_OUT_VENDOR)/lib/libAndroidAlgSys.so \
+    vendor/motorola/berlin/proprietary/vendor/lib/libMAM2_3-AlgFX-Coretex_A9.so:$(TARGET_COPY_OUT_VENDOR)/lib/libMAM2_3-AlgFX-Coretex_A9.so \
     vendor/motorola/berlin/proprietary/vendor/lib/libacdbloader.so:$(TARGET_COPY_OUT_VENDOR)/lib/libacdbloader.so \
     vendor/motorola/berlin/proprietary/vendor/lib/libarcsoft_distortion_correction.so:$(TARGET_COPY_OUT_VENDOR)/lib/libarcsoft_distortion_correction.so \
     vendor/motorola/berlin/proprietary/vendor/lib/libarcsoft_portrait_distortion_correction.so:$(TARGET_COPY_OUT_VENDOR)/lib/libarcsoft_portrait_distortion_correction.so \
