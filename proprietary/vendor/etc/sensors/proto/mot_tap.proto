@@ -41,4 +41,5 @@ message mot_tap_event
   required float period = 3;
   required float conf = 4;
   optional float angle = 5;
+  optional float magnitude = 6;
 }

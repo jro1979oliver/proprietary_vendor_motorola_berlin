@@ -871,7 +871,7 @@
 		</mappings>
 	</device>
 
-	<device name="tundra" version="0.1">
+	<device name="tundra" version="0.5">
 
 		<!-- Features list variable hardware components for this device -->
 		<features>
@@ -943,6 +943,7 @@
 			<string-array name="storage/.range">
 				<item>128GB</item>
 				<item>256GB</item>
+				<item>512GB</item>
 			</string-array>
 
 			<string name="dualsim/.auto">default=true</string>
@@ -955,8 +956,7 @@
 			<!-- frontcolor has to be programmed explicitly -->
 			<string name="frontcolor/.system">ro.vendor.hw.</string>
 			<string-array name="frontcolor/.range">
-				<item>MIRAGE</item>
-				<item>SEA ICE</item>
+				<item>barberry</item>
 				<item>other</item>
 			</string-array>
 
@@ -975,11 +975,13 @@
 				<item>true</item>
 			</string-array>
 
-			<string name="nfc/.auto">default=ese_nq</string>
+			<string name="nfc/.auto">key=hwid;index=2;map=1:nq,2:ese_nq</string>
 			<string name="nfc/.chosen">mmi,</string>
 			<string name="nfc/.system">ro.vendor.hw.</string>
 			<string-array name="nfc/.range">
 				<item>ese_nq</item>
+				<item>nq</item>
+				<item>false</item>
 			</string-array>
 
 			<string name="displayport/.auto">default=true</string>
@@ -1005,9 +1007,19 @@
 				<!-- ... same format as variants/products ... -->
 				<variant name="dn">
 					<string name="dualsim">true</string>
+					<string name="nfc">nq</string>
 				</variant>
 				<variant name="n">
 					<string name="dualsim">false</string>
+					<string name="nfc">nq</string>
+				</variant>
+				<variant name="de">
+					<string name="dualsim">true</string>
+					<string name="nfc">ese_nq</string>
+				</variant>
+				<variant name="e">
+					<string name="dualsim">false</string>
+					<string name="nfc">ese_nq</string>
 				</variant>
 			</skus>
 

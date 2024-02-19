@@ -22,11 +22,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/berlin/proprietary/system/etc/permissions/moto-settings.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/moto-settings.xml \
     vendor/motorola/berlin/proprietary/system_ext/bin/motsettings:$(TARGET_COPY_OUT_SYSTEM_EXT)/bin/motsettings \
     vendor/motorola/berlin/proprietary/system_ext/etc/permissions/com.android.hotwordenrollment.common.util.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/com.android.hotwordenrollment.common.util.xml \
-    vendor/motorola/berlin/proprietary/system_ext/etc/permissions/com.motorola.androidx.camera.extensions.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/com.motorola.androidx.camera.extensions.xml \
-    vendor/motorola/berlin/proprietary/vendor/etc/permissions/com.motorola.androidx.camera.extensions.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/com.motorola.androidx.camera.extensions.xml \
-    vendor/motorola/berlin/proprietary/system_ext/etc/public.libraries-motocamera.txt:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/public.libraries-motocamera.txt \
-    vendor/motorola/berlin/proprietary/system_ext/lib/libmcf_native_window_helper.motocamera.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/libmcf_native_window_helper.motocamera.so \
-    vendor/motorola/berlin/proprietary/system_ext/lib64/libmcf_native_window_helper.motocamera.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libmcf_native_window_helper.motocamera.so \
     vendor/motorola/berlin/proprietary/vendor/bin/STFlashTool:$(TARGET_COPY_OUT_VENDOR)/bin/STFlashTool \
     vendor/motorola/berlin/proprietary/vendor/bin/hw/motorola.hardware.camera.desktop@2.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/motorola.hardware.camera.desktop@2.0-service \
     vendor/motorola/berlin/proprietary/vendor/etc/acdbdata/Bluetooth_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/Bluetooth_cal.acdb \
@@ -643,12 +638,11 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     MotoSignatureApp \
     MotCamera3AI \
-    HotwordEnrollmentOKGoogleHEXAGON \
-    HotwordEnrollmentXGoogleHEXAGON \
-    MotCamera3 \
+    HotwordEnrollmentOKGoogleHEXAGON_WIDEBAND \
+    HotwordEnrollmentXGoogleHEXAGON_WIDEBAND \
+    MotCamera4 \
     MotorolaSettingsProvider \
     com.motorola.motosignature \
     moto-core_services \
     moto-settings \
-    com.android.hotwordenrollment.common.util \
-    com.motorola.androidx.camera.extensions
+    com.android.hotwordenrollment.common.util
