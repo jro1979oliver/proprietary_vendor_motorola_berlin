@@ -60,8 +60,7 @@ android_app_import {
 	owner: "motorola",
 	apk: "proprietary/product/priv-app/MotCamera4/MotCamera4.apk",
 	overrides: ["Aperture", "Camera2"],
-	preprocessed: true,
-	presigned: true,
+	certificate: "platform",
 	dex_preopt: {
 		enabled: false,
 	},
